@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "Spendy",
+    "slug": "spendy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": ["**/*"]
+  }
+}
