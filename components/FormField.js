@@ -9,14 +9,26 @@ export const FormField = ({ label, ...inputProps }) => (
 );
 
 const styles = StyleSheet.create({
-  group: { marginBottom: 12 },
-  label: { fontWeight: '600', marginBottom: 6 },
+  group: { marginBottom: 14 },
+  label: {
+    fontSize: 13,
+    fontWeight: '800',
+    letterSpacing: 0.3,
+    marginBottom: 8,
+    color: '#0f172a',
+  },
   input: {
     borderWidth: 1,
-    borderColor: '#ddd',
-    borderRadius: 10,
-    paddingHorizontal: 12,
-    paddingVertical: 10,
+    borderColor: '#dbe4ea',
+    borderRadius: 16,
+    paddingHorizontal: 14,
+    paddingVertical: 13,
     backgroundColor: '#fff',
+    color: '#0f172a',
+    shadowColor: '#0f172a',
+    shadowOpacity: 0.03,
+    shadowRadius: 12,
+    shadowOffset: { width: 0, height: 4 },
+    elevation: 1,
   },
 });
